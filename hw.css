@@ -1,0 +1,18 @@
+/* теговий селектор */
+div[class^="text-box"] > h3 {
+    color: pink;
+}
+div[class^="text-box"] > p {
+    color: green;
+}
+div > p {
+    color: red;
+}
+/* id селектор */
+#greycol {
+    color: grey;
+}
+/* классовий селектор */
+.yellow {
+    color: yellow;
+}
