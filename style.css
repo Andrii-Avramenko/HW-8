@@ -1,18 +1,22 @@
-/* теговий селектор */
-div[class^="text-box"] > h3 {
+.text-box h3:first-of-type {
     color: pink;
 }
-div[class^="text-box"] > p {
-    color: green;
-}
-div > p {
-    color: red;
-}
-/* id селектор */
+
 #greycol {
     color: grey;
 }
-/* классовий селектор */
-.yellow {
+
+.text-box div:last-of-type p {
+    color: red;
+}
+.text-box p {
+    color: green;
+}
+
+.text-box p:first-of-type {
+    color: initial;
+}
+
+.text-box .yellow {
     color: yellow;
 }
