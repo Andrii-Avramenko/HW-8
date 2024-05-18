@@ -1,3 +1,4 @@
+/* hw */
 .text-box h3:first-of-type {
     color: pink;
 }
@@ -19,4 +20,23 @@
 
 .text-box .yellow {
     color: yellow;
+}
+/* list */
+.day {
+    background-color: #48ff00;
+    list-style: disc;
+    width: 545px;
+}
+.subject {
+    list-style: numbers;
+    padding-left: 5px;
+    width: 500px;
+}
+.subject:nth-child(n) {
+    color: #fff;
+    background-color: #333;
+}
+.subject:nth-child(2n) {
+    color: #000;
+    background-color: #fff;
 }
