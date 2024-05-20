@@ -40,3 +40,11 @@
     color: #000;
     background-color: #fff;
 }
+.sch-adrs:hover {
+    color: rgb(255, 0, 0);
+    text-decoration-line: none;
+}
+.sch-adrs:visited {
+    color: #00ff00;
+    text-decoration-line: none;
+}
